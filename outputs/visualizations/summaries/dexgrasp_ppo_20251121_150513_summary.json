@@ -1,0 +1,19 @@
+{
+  "task": "dexgrasp",
+  "run_name": "ppo_20251121_150513",
+  "reward_mode": "new",
+  "curriculum_enabled": false,
+  "obstacle_count": 4,
+  "training_strategy": "curriculum",
+  "final_success_rate": 0.0,
+  "timestamp": "2025-11-21T15:05:24.970281",
+  "learning_curve_file": "outputs/visualizations/learning_curves/dexgrasp_ppo_20251121_150513_learning.png",
+  "learning_curve_data": "outputs/visualizations/learning_curves/dexgrasp_ppo_20251121_150513_learning.npz",
+  "extra_stats": {
+    "current_success_rate": 0.0,
+    "cumulative_success_rate": 0.0,
+    "avg_success_steps": 0,
+    "singulation_success_rate": 1.0,
+    "videos": []
+  }
+}

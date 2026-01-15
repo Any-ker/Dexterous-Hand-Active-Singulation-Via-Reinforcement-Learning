@@ -1,0 +1,8 @@
+{
+  "task": "dexgrasp",
+  "run_name": "ppo_20251120_163141",
+  "reward_mode": "new",
+  "obstacle_count": 4,
+  "final_success_rate": 0.0,
+  "timestamp": "2025-11-20T16:33:39.107073"
+}

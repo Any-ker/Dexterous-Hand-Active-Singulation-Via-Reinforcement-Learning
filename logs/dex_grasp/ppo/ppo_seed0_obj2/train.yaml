@@ -1,0 +1,91 @@
+Debug:
+  reward_log_interval: 50
+Infos:
+  save_name: Results
+Init: false
+Models:
+  activation: elu
+  pi_hid_sizes:
+  - 1024
+  - 1024
+  - 512
+  - 512
+  sigmoid_actions: false
+  vf_hid_sizes:
+  - 1024
+  - 1024
+  - 512
+  - 512
+Modes:
+  clean_obs: true
+  double_iteration_step: false
+  double_update_half_iteration_step: false
+  double_update_step: true
+  encode_hand_object_dist: true
+  encode_obs_time: true
+  flag_body_dist: false
+  flag_joint_dist: true
+  init_pca_hand: false
+  random_time: false
+  static_init: true
+  train_default: false
+  zero_object_visual_feature: true
+Obs:
+  intervals:
+    actions:
+    - 72
+    - 94
+    hand_dofs:
+    - 0
+    - 66
+    hand_objects:
+    - 267
+    - 288
+    hand_states:
+    - 66
+    - 72
+    object_visual:
+    - 110
+    - 238
+    objects:
+    - 94
+    - 110
+    singulation_distances:
+    - 288
+    - 296
+    times:
+    - 238
+    - 267
+  names:
+  - hand_dofs
+  - hand_states
+  - actions
+  - objects
+  - object_visual
+  - times
+  - hand_objects
+  - singulation_distances
+Save: false
+Save_Base: /home/anyker/recode/ME5418/logs/Results
+Save_Train: false
+Weights:
+  bonus: 1.0
+  delta_init_qpos_value: -0.1
+  delta_target_hand_pca: 0.0
+  encapsulation: 1.0
+  goal_dist: -0.5
+  goal_rew: 1.0
+  hand_up: 2.0
+  hand_up_goal_dist: 1.0
+  max_finger_dist: 0.3
+  max_goal_dist: 0.05
+  max_hand_dist: 0.06
+  num_action: 28
+  num_observation: 296
+  right_hand_body_dist: 0.1
+  right_hand_dist: -2.0
+  right_hand_exploration_dist: 0.0
+  right_hand_finger_dist: -1.0
+  right_hand_joint_dist: -1.0
+  singulation_reward_scale: 50.0
+  singulation_success_threshold: 0.15

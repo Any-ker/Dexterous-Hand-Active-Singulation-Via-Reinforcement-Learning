@@ -1,0 +1,45 @@
+name: me5418_dexterous_hand
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.20.1
+  - matplotlib=3.5.1
+  - pyyaml
+  - scikit-learn
+  - scipy
+  - ninja
+  - psutil
+  - cudatoolkit=11.7
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - torchaudio=0.13.1
+  - pip:
+      - gym==0.25.2
+      - gym-notices==0.0.8
+      - tqdm
+      - tb-nightly
+      - imageio
+      - pyquaternion
+      - opencv-python
+      - transforms3d
+      - addict
+      - yapf
+      - h5py
+      - sorcery
+      - pynvml
+      - lxml
+      - wandb
+      - GPUtil
+      - open3d
+      - trimesh
+      - "accelerate<1.0.0"
+      - fast-simplification
+      - ipdb
+      - "pytorch-lightning<2.0.0"
+
