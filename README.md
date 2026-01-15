@@ -169,6 +169,27 @@ To validate the effectiveness of the proposed method in cluttered environments, 
 
 **Key Observation:** While the baseline excels in clean environments, it cannot handle clutter. Our proposed method bridges this gap, achieving a **50% singulation success rate** in complex scenarios where the baseline fails entirely.
 
+### Demonstration Videos
+
+Below are three demonstration videos showcasing the performance comparison between the baseline and proposed methods:
+
+#### Video 1: Baseline Policy (No Clutter)
+Successfully grasps the target object in an unobstructed environment.
+
+https://github.com/user-attachments/assets/4ecc378a-03be-43af-a298-a50affa6de18
+
+#### Video 2: Baseline Policy (With Clutter)
+Demonstrates failure when the target object is surrounded by obstacles.
+
+https://github.com/user-attachments/assets/c9f489a2-f87f-48c9-9410-ee9c843ebc93
+
+#### Video 3: Proposed Method (With Clutter)
+Shows successful singulation and grasping in cluttered scenarios.
+
+https://github.com/user-attachments/assets/99d5fdd9-07e3-47d8-9e8a-9fd26c1c7ac6
+
+
+
 ## Troubleshooting
 
 - Ensure Isaac Gym binaries match the Python version (3.8).
